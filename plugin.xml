@@ -259,9 +259,9 @@
 
     <platform name="android">
         
-        <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
+        <!--<edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
 			<application android:allowBackup="false" />
-		</edit-config>
+		</edit-config>-->
         
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic" >
