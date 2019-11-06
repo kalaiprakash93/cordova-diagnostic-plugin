@@ -119,11 +119,11 @@
         <framework src="AVFoundation.framework" />
 
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-            <string>This app requires camera access to function properly.</string>
+            <string>need camera access to enable users to click photos and upload them on their profiles.</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-            <string>This app requires photo library access to function properly.</string>
+            <string>need photo library access to enable users to choose photos and upload them on their profiles.</string>
         </config-file>
 
         <header-file src="src/ios/Diagnostic_Camera.h" />
